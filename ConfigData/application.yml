@@ -26,4 +26,4 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 ---
 spring:
   profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog
+words: bateau,livre,vote,siege,sac a dos,partition,marmotte
