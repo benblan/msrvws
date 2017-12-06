@@ -15,15 +15,5 @@ words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: article
-words: un,le
-
----
-spring:
   profiles: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
-
----
-spring:
-  profiles: noun
-words: bateau,livre,vote,siege,sac a dos,partition,marmotte
