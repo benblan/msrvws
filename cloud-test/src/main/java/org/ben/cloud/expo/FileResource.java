@@ -15,7 +15,7 @@ public class FileResource {
 	@GetMapping(value = {"/hello", "/hello/{name}"})
 	public String getHello(@PathVariable(name = "name", required = false) String name) {
 		if(StringUtils.isNotBlank(name)) {
-			return "Hello, " + name;
+			return "Hello, " + name + "!";
 		} else {
 			return "Hello, world";
 		}
